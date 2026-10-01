@@ -74,14 +74,14 @@ The project delivers three interconnected components:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                      CLIENTS (1..N)                      │
-│  Local Data ─── Local SMOTENC ─── FedProx Local Training │
+│                      CLIENTS (1..N)                     │
+│  Local Data ─── Local SMOTENC ─── FedProx Local Training│
 ├─────────────────────────────────────────────────────────┤
-│                  model weights only ↑↓                   │
+│                  model weights only ↑↓                  │
 ├─────────────────────────────────────────────────────────┤
-│                        SERVER                            │
-│  Sample-Size-Weighted Aggregation ─── Global Model       │
-│  (40 communication rounds)                               │
+│                        SERVER                           │
+│  Sample-Size-Weighted Aggregation ─── Global Model      │
+│  (40 communication rounds)                              │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -243,23 +243,5 @@ Source: [Diabetes Prediction Dataset (Kaggle)](https://www.kaggle.com/)
 - [ ] Multi-task federated learning for multi-disease diagnosis
 - [ ] Federated optimization for heterogeneous clients
 - [ ] Comprehensive evaluation dashboard
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
